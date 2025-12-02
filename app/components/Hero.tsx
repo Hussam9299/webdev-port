@@ -28,7 +28,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen relative overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <Image 
+        <img 
           src="hero-workspace.jpg" 
           alt="Web Developer Workspace" 
           className="w-full h-full object-cover opacity-30"
