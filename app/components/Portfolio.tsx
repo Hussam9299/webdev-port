@@ -57,9 +57,20 @@ const Portfolio = () => {
     },
     {
       title: "E-Commerce Platform",
-      description: "A modern e-commerce platform built for a growing retail brand. Features include product catalog, shopping cart, secure payments, and admin dashboard.",
+      description: "A modern e-commerce platform built for a growing retail brand. Features include shopping cart, secure payments, and admin dashboard.",
+      image: "quickcart.png",
+      technologies: ["Next.js", "MongoDB", "Typescript", "Tailwind CSS"],
+      category: "E-Commerce",
+      liveUrl: "https://quick-cart-omega-eight.vercel.app/",
+      githubUrl: "https://github.com",
+      testimonial: "The new website increased our online sales by 150% in the first quarter. The user experience is incredible!",
+      client: "QuickCart Co."
+    },
+    {
+      title: "E-Commerce Platform",
+      description: "A sleek, high-performance front-end design crafted for a modern e-commerce brand. The interface features an intuitive product, responsive layout, and a visually engaging product detail view. Built with clean, scalable UI architecture and optimized for speed, accessibility, and seamless integration with any backend API.",
       image: "timecraft.png",
-      technologies: ["Next.js", "MongoDB", "Sanity.io", "Typescript", "Tailwind CSS"],
+      technologies: ["Next.js", "MongoDB", "Typescript", "Tailwind CSS"],
       category: "E-Commerce",
       liveUrl: "https://my-web-lake-iota.vercel.app/",
       githubUrl: "https://github.com",
@@ -70,7 +81,7 @@ const Portfolio = () => {
       title: "Creative Portfolio",
       description: "A stunning portfolio website for a seo agency showcasing their work through immersive galleries and interactive elements.",
       image: "seoexpert.png",
-      technologies: ["Next.js", "MongoDB", "Sanity.io", "Typescript", "Tailwind CSS"],
+      technologies: ["Next.js", "MongoDB","Typescript", "Tailwind CSS"],
       category: "Portfolio",
       liveUrl: "https://seo-port-1.vercel.app/",
       githubUrl: "https://github.com",
@@ -113,7 +124,7 @@ const Portfolio = () => {
                   alt={project.title}
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent lg:hidden"></div>
+                <div className="absolute inset-0 bg-linear-to-t from-background/60 to-transparent lg:hidden"></div>
               </div>
 
               {/* Project Details */}
@@ -161,7 +172,7 @@ const Portfolio = () => {
                 <div className="flex flex-col sm:flex-row gap-3">
                   <Button 
                     asChild
-                    className="btn-hero bg-gradient-to-r from-blue-500 to-purple-500 flex-1 !text-black"
+                    className="btn-hero bg-linear-to-r from-blue-500 to-purple-500 flex-1 text-black!"
                   >
                     <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
                       <ExternalLink size={18} className="mr-2 text-black" />

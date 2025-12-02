@@ -130,7 +130,7 @@ const Services = () => {
                     <ul className="space-y-2">
                       {service.features.map((feature, idx) => (
                         <li key={idx} className="flex items-center text-sm" style={{ color: "hsl(215, 20%, 65%)" }}>
-                          <CheckCircle size={16} className="text-primary mr-2 flex-shrink-0" />
+                          <CheckCircle size={16} className="text-primary mr-2 shrink-0" />
                           {feature}
                         </li>
                       ))}
@@ -167,7 +167,7 @@ const Services = () => {
               Let's discuss how we can help bring your vision to life with a custom web solution 
               that drives results and exceeds expectations.
             </p>
-            <Button onClick={scrollToContact} className="btn-hero bg-gradient-to-r from-blue-500 to-purple-500 text-lg px-8 py-4 cursor-pointer">
+            <Button onClick={scrollToContact} className="btn-hero bg-linear-to-r from-blue-500 to-purple-500 text-lg px-8 py-4 cursor-pointer">
               Get Started Today
             </Button>
           </div>

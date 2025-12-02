@@ -105,7 +105,7 @@ const Footer = () => {
                   <li key={link.label}>
                     <button
                       onClick={() => scrollToSection(link.href)}
-                      className="hover:!text-blue-500 transition-colors duration-200 cursor-pointer"
+                      className="hover:text-blue-500! transition-colors duration-200 cursor-pointer"
                       style={{ color: "hsl(215, 20%, 65%)" }}
                     >
                       {link.label}

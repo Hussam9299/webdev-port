@@ -295,7 +295,7 @@ const Contact = () => {
                     <Button 
                       type="submit" 
                       disabled={isSubmitting}
-                      className="btn-hero w-full text-lg py-6 bg-gradient-to-r from-blue-500 to-purple-500 text-black cursor-pointer"
+                      className="btn-hero w-full text-lg py-6 bg-linear-to-r from-blue-500 to-purple-500 text-black cursor-pointer"
                     >
                       {isSubmitting ? (
                         <>

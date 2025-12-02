@@ -28,7 +28,7 @@ const Hero = () => {
     <section id="home" className="min-h-screen relative overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
+        <Image 
           src="hero-workspace.jpg" 
           alt="Web Developer Workspace" 
           className="w-full h-full object-cover opacity-30"
@@ -56,14 +56,14 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button 
               onClick={() => scrollToSection("#work")} 
-              className="btn-hero text-lg bg-gradient-to-r from-blue-500 to-purple-500 px-8 py-4 cursor-pointer"
+              className="btn-hero text-lg bg-linear-to-r from-blue-500 to-purple-500 px-8 py-4 cursor-pointer"
             >
               View Our Work
             </Button>
             <Button 
               onClick={() => scrollToSection("#contact")} 
               variant="outline"
-              className="text-lg px-8 py-4 bg-[#000000] border-1 !border-blue-950 text-white rounded-xl hover:bg-[#081529] hover:text-black cursor-pointer"
+              className="text-lg px-8 py-4 bg-[#000000] border border-blue-950! text-white rounded-xl hover:bg-[#081529] hover:text-black cursor-pointer"
             >
               Start a Project
             </Button>
@@ -102,7 +102,7 @@ const Hero = () => {
               {techStack.map((tech) => (
                 <span 
                   key={tech}
-                  className="px-4 py-2 !bg-[#0f1d33] !border-2 !border-[#1b273b] rounded-full text-sm font-medium hover:!bg-[#0c2752] transition-all duration-200"
+                  className="px-4 py-2 bg-[#0f1d33]! border-2! border-[#1b273b]! rounded-full text-sm font-medium hover:bg-[#0c2752]! transition-all duration-200"
                 >
                   {tech}
                 </span>

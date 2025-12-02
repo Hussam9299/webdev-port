@@ -180,7 +180,7 @@ const PrivacyPolicy = () => {
           {/* Contact Information */}
           <section className="mb-8">
             <h2 className="text-2xl font-bold text-[#6d70ff] mb-4">8. Contact Us</h2>
-            <div className="bg-gradient-to-r from-[#6d70ff]/20 to-[#9e55ff]/20 p-6 rounded-lg border border-[#6d70ff]/30">
+            <div className="bg-linear-to-r from-[#6d70ff]/20 to-[#9e55ff]/20 p-6 rounded-lg border border-[#6d70ff]/30">
               <p className="text-gray-300 mb-4">
                 If you have any questions about this Privacy Policy or our data practices, please contact us:
               </p>

@@ -81,7 +81,7 @@ const Navigation = () => {
               </button>
             ))}
             <Button
-              className="btn-hero bg-gradient-to-r from-blue-500 to-purple-500 text-black font-semibold px-8 py-4 rounded-xl shadow-lg no-underline cursor-pointer"
+              className="btn-hero bg-linear-to-r from-blue-500 to-purple-500 text-black font-semibold px-8 py-4 rounded-xl shadow-lg no-underline cursor-pointer"
               onClick={openGmailCompose}
             >
               <Mail className="w-4 h-4" />
@@ -116,7 +116,7 @@ const Navigation = () => {
             ))}
             <Button
               onClick={openGmailCompose}
-              className="btn-hero bg-gradient-to-r from-blue-500 to-purple-500 text-black font-semibold px-8 py-4 rounded-xl shadow-lg no-underline cursor-pointer w-full mt-4"
+              className="btn-hero bg-linear-to-r from-blue-500 to-purple-500 text-black font-semibold px-8 py-4 rounded-xl shadow-lg no-underline cursor-pointer w-full mt-4"
             >
               Start a Project
             </Button>
